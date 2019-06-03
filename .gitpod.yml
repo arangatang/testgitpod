@@ -1,5 +1,6 @@
 tasks:
-    - init: npm install live-server -g
+    - init: npm install http-server -g
     - command: live-server
 ports:
     - port: 8080
+
