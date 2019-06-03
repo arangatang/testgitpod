@@ -1,6 +1,5 @@
 tasks:
-    - init: npm install http-server -g
-    - command: http-server
+    - command: npm install http-server -g && http-server
 ports:
     - port: 8080
 
