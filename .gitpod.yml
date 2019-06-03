@@ -1,9 +1,5 @@
-image: node
-
 tasks:
-    - init: npm install -g live-server
-    - command: echo t1
-    - command: echo t2
+    - init: npm install live-server -g
     - command: live-server
 ports:
     - port: 8080
